@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "585705831310",
+    "firebase_url": "https://friendsvoice-83a55-default-rtdb.firebaseio.com",
+    "project_id": "friendsvoice-83a55",
+    "storage_bucket": "friendsvoice-83a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585705831310:android:db3e73a3789c97b7cbc2df",
+        "android_client_info": {
+          "package_name": "com.friendsvoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585705831310-ood6v4moo0ftku3vokd9vh8mrltt50k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbSYCPht7S35wb-uVvWTkgiqbL4A5OH4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585705831310-ood6v4moo0ftku3vokd9vh8mrltt50k0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

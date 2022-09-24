@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "FriendsVoice",
+    "slug": "FriendsVoice",
+    "scheme": "com.friendsvoice",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "sounds": [
+            "./assets/Notifications/Notification.mp3"
+          ],
+          "vibrationPattern": [
+            1000,
+            1000,
+            1000
+          ]
+        }
+        
+      ],
+      ["react-native-compressor"]
+    ],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.friendsvoice",
+      "buildNumber": "3"
+    },
+    "android": {
+      "package": "com.friendsvoice",
+      "useNextNotificationsApi": true,
+      "versionCode": 3,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/logo/darkIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "023db17f-d1d3-4ad8-bdbe-9600a707a2ad"
+      }
+    }
+  },
+  "name": "FriendsVoice",
+  "description": "FriendsVoice",
+  "author": "alomgir27",
+  "displayName": "FriendsVoice",
+  "notification": {
+    "icon": "./assets/logo/darkIcon.png",
+    "color": "#ffffff"
+  }
+}
